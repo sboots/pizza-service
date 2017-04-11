@@ -3,7 +3,7 @@
 permalink: /:year/:month/:day/:title/
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-highlighter: pygments
+highlighter: rouge
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
@@ -28,6 +28,14 @@ author :
 production_url : https://sboots.github.io/pizza-service
 
 gems: ["jekyll-sitemap"]
+
+# Custom GCWeb-specific configurations
+# No trailing slashes needed on the paths below:
+GC :
+  lang: fr
+  translation_base_path: https://sboots.github.io/service-pizza
+  static_asset_path: //wet-boew.github.io/themes-dist/GCWeb
+
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -66,7 +74,7 @@ JB :
   #   http://s3.amazonaws.com/yoursite/themes/watermelon
   #   /assets
   #
-  ASSET_PATH : //wet-boew.github.io/themes-dist/GCWeb
+  ASSET_PATH : false
 
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.

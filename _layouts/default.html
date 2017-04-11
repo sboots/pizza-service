@@ -3,4 +3,9 @@ theme :
   name : wet-boew
 ---
 {% include JB/setup %}
-{% include themes/wet-boew/default-en.html %}
+
+{% if site.GC.lang == 'fr' %}
+	{% include themes/wet-boew/default-fr.html %}
+{% else %}
+	{% include themes/wet-boew/default-en.html %}
+{% endif %}
