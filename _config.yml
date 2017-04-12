@@ -32,7 +32,7 @@ gems: ["jekyll-sitemap"]
 # Custom GCWeb-specific configurations
 # No trailing slashes needed on the paths below:
 GC :
-  lang: fr
+  lang: en
   translation_base_path: https://sboots.github.io/service-pizza
   static_asset_path: //wet-boew.github.io/themes-dist/GCWeb
 
