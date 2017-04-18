@@ -154,32 +154,9 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 	<main role="main" property="mainContentOfPage" class="container">
 		<h1 property="name" id="wb-cont">{{ page.title }}</h1> {{ content }}
 	</main>
-	<aside class="gc-nttvs container">
-		<h2>Government of Canada activities and initiatives</h2>
-		<div id="gcwb_prts" class="wb-eqht row">
-			<section class="col-lg-4 col-md-6 mrgn-bttm-md">
-				<a rel="external" href="#">
-					<h3 class="h5">[Activities and initiatives hyperlink text]</h3>
-					<img class="img-responsive thumbnail mrgn-bttm-sm" src="{{ site.GC.static_asset_path }}/img/features/355x113.png" alt="">
-				</a>
-				<p>Brief description of the initiative, task or information being promoted.</p>
-			</section>
-			<section class="col-lg-4 col-md-6 mrgn-bttm-md">
-				<a rel="external" href="#">
-					<h3 class="h5">[Activities and initiatives hyperlink text]</h3>
-					<img class="img-responsive thumbnail mrgn-bttm-sm" src="{{ site.GC.static_asset_path }}/img/features/355x113.png" alt="">
-				</a>
-				<p>Brief description of the initiative, task or information being promoted.</p>
-			</section>
-			<section class="col-lg-4 col-md-6 mrgn-bttm-md">
-				<a rel="external" href="#">
-					<h3 class="h5">[Activities and initiatives hyperlink text]</h3>
-					<img class="img-responsive thumbnail mrgn-bttm-sm" src="{{ site.GC.static_asset_path }}/img/features/355x113.png" alt="">
-				</a>
-				<p>Brief description of the initiative, task or information being promoted.</p>
-			</section>
-		</div>
-	</aside>
+
+	{% include themes/wet-boew/activities-en.html %}
+	
 	<footer role="contentinfo" id="wb-info">
 		<nav role="navigation" class="container wb-navcurr">
 			<h2 class="wb-inv">About government</h2>
