@@ -35,6 +35,11 @@ GC :
   lang: en
   translation_base_path: https://sboots.github.io/service-pizza
   static_asset_path: //wet-boew.github.io/themes-dist/GCWeb
+  site_breadcrumbs:
+    - label: 'Home'
+      url: 'https://www.canada.ca/en.html'
+    - label: 'Pizza Service'
+      url: 'HOME_PATH'
 
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash

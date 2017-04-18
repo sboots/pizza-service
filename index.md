@@ -2,6 +2,9 @@
 layout: page
 title: Hello World!
 tagline: Supporting tagline
+breadcrumbs:
+  - label: 'Parent'
+    url: '#'
 ---
 {% include JB/setup %}
 
